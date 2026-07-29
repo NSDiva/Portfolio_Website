@@ -1,3 +1,5 @@
+import { site } from "@/lib/site";
+
 export default function Contact() {
   return (
     <section id="contact" className="section" data-screen-label="06 CONTACT" style={{ paddingBottom: 40 }}>
@@ -16,14 +18,35 @@ export default function Contact() {
           in.
         </p>
         <div className="contact-actions">
-          <a href="mailto:neekita635@gmail.com" className="btn-primary">
-            → neekita635@gmail.com
+          <a href={`mailto:${site.email}`} className="btn-primary">
+            → {site.email}
           </a>
         </div>
         <div className="contact-social">
-          <a href="#" className="social-link">GitHub ↗</a>
-          <a href="#" className="social-link">LinkedIn ↗</a>
-          <a href="#" className="social-link">Resume ↗</a>
+          <a
+            href={site.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+            GitHub ↗
+          </a>
+          <a
+            href={site.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+            LinkedIn ↗
+          </a>
+          <a
+            href={site.resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
+            Resume ↗
+          </a>
         </div>
       </div>
     </section>

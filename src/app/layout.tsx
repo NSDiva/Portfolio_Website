@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, JetBrains_Mono, Great_Vibes } from "next/font/google";
+import { site } from "@/lib/site";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -21,10 +22,81 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Neekita Sahu — Frontend Developer",
-  description:
-    "Frontend developer & UI engineer building modern, responsive interfaces with React and Next.js — clean design, scroll-linked motion, and performance that ships to production.",
+  metadataBase: new URL(site.url),
+  title: {
+    default: site.title,
+    template: `%s — ${site.name}`,
+  },
+  description: site.description,
+  keywords: [...site.keywords],
+  authors: [{ name: site.name, url: site.url }],
+  creator: site.name,
+  publisher: site.name,
+  category: "technology",
+  applicationName: site.title,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: site.url,
+    siteName: site.title,
+    title: site.title,
+    description: site.description,
+    locale: site.locale,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: site.title,
+    description: site.description,
+    creator: site.name,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
+
+export const viewport: Viewport = {
+  themeColor: site.themeColor,
+  colorScheme: "dark",
+};
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: site.name,
+    url: site.url,
+    email: site.email,
+    jobTitle: site.role,
+    image: `${site.url}/opengraph-image`,
+    sameAs: [site.github, site.linkedin],
+    knowsAbout: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Three.js",
+      "Frontend Development",
+      "UI Engineering",
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: site.title,
+    url: site.url,
+    author: { "@type": "Person", name: site.name },
+    inLanguage: "en",
+  },
+];
 
 export default function RootLayout({
   children,
@@ -41,6 +113,10 @@ export default function RootLayout({
         <noscript>
           <style>{`[data-reveal]{opacity:1 !important;transform:none !important}.intro{display:none !important}`}</style>
         </noscript>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body>{children}</body>
     </html>
