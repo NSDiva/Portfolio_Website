@@ -1,7 +1,7 @@
 export const site = {
   url: "https://neekitasahu.dev",
   name: "Neekita Sahu",
-  title: "Neekita Sahu — Frontend Developer",
+  title: "Neekita Sahu | Frontend Developer",
   description:
     "Frontend developer & UI engineer building modern, responsive interfaces with React and Next.js — clean design, scroll-linked motion, and performance that ships to production.",
   role: "Frontend Developer & UI Engineer",
