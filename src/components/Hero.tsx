@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="top" className="hero">
       <div data-reveal className="status-badge">
         <span className="status-dot" />
-        CURRENTLY SEARCHING &amp; EXPLORING — OPEN TO FRONTEND ROLES &amp; OPPORTUNITIES
+        OPEN TO FRONTEND ROLES &amp; STILL LOOKING AROUND
       </div>
 
       <div className="hero-grid">
@@ -13,10 +13,10 @@ export default function Hero() {
             <span className="acc">Builder.</span>
           </h1>
           <p data-reveal className="hero-sub">
-            Building modern, responsive interfaces with{" "}
+            I build responsive interfaces with{" "}
             <span className="strong">React</span> and{" "}
-            <span className="strong">Next.js</span> — clean design, scroll-linked
-            motion, and performance that ships to production.
+            <span className="strong">Next.js</span>. Clean layouts, scroll-linked
+            motion, and code that holds up once it&apos;s in production.
           </p>
           <div data-reveal className="hero-actions">
             <a href="#work" className="btn-primary">→ view work</a>

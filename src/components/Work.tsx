@@ -3,21 +3,21 @@ const projects = [
     thumb: "[ collaborative editor ]",
     date: "01 · 2026",
     title: "Real-Time P2P Workspace",
-    desc: "A decentralized, real-time document editor built with Next.js, React & TipTap. Yjs + WebRTC drive peer-to-peer sync and live presence with no central database, and the Web Crypto API keeps sessions encrypted in transit.",
+    desc: "A document editor where everyone types at once and no server holds the data. Yjs and WebRTC sync peers directly and show who else is in the room. The Web Crypto API encrypts everything on the wire. Built on Next.js, React and TipTap.",
     tags: ["Next.js", "TipTap", "Yjs / WebRTC", "Tailwind v4"],
   },
   {
     thumb: "[ movie search ]",
     date: "02 · 2025",
-    title: "MovieLand Discovery Hub",
-    desc: "A dynamic React search engine over thousands of films. The OMDb API fetches real-time titles, posters & release dates, and React Hooks keep the glass-morphism grid updating instantly — no page refreshes, smooth hover animations throughout.",
+    title: "MovieLand",
+    desc: "Type a title and it searches thousands of films through the OMDb API. Posters and release dates come back as you go, and React Hooks refill the glass-morphism grid without a page refresh.",
     tags: ["React", "OMDb API", "React Hooks", "CSS Grid"],
   },
   {
     thumb: "[ 3D globe ]",
     date: "03 · 2025",
-    title: "Global Temperature Explorer",
-    desc: "An interactive 3D globe in Three.js with custom earth textures. Search any city and a live weather API pulls temperature, wind & humidity — the view transitions from the rotating 3D world to a clean report, fully responsive from desktop to mobile.",
+    title: "Global Temperature",
+    desc: "A 3D globe rendered in Three.js with custom earth textures. Search a city and a live weather API pulls temperature, wind and humidity, then the view moves from the spinning globe to a plain readout. Holds up from desktop down to mobile.",
     tags: ["Three.js", "Weather API", "WebGL", "Responsive"],
   },
 ];
@@ -33,7 +33,7 @@ export default function Work() {
       </div>
 
       <p data-reveal className="work-lead">
-        Interfaces I built to be fast, responsive, and a little delightful.
+        A few things I&apos;ve built. Fast, responsive, no wasted motion.
       </p>
 
       <div className="work-list">

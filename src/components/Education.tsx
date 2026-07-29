@@ -20,12 +20,12 @@ export default function Education() {
           <div className="card-label">◆ ACHIEVEMENTS</div>
           <ul className="ach-list">
             <li className="point">
-              <span className="acc">→</span>Participant, Shankara Global Hackathon
-              2025 — Jaipur, India.
+              <span className="acc">→</span>Participant at the Shankara Global
+              Hackathon 2025 in Jaipur, India.
             </li>
             <li className="point">
               <span className="acc">→</span>Infosys Springboard Virtual Internship
-              6.0 — certified.
+              6.0, certified.
             </li>
           </ul>
         </div>

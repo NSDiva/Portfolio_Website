@@ -7,12 +7,13 @@ export default function Contact() {
 
       <div data-reveal className="contact-block">
         <h2 className="contact-title">
-          Got a project in mind?<br />
-          <span className="acc">Let&apos;s build it.</span>
+          Got something you want built?<br />
+          <span className="acc">Let&apos;s talk.</span>
         </h2>
         <p className="contact-sub">
-          I&apos;m always up for frontend work, freelance builds, or a good
-          conversation about UI, motion, and performance. I read every message.
+          I&apos;m open to frontend roles and freelance work, and happy to talk
+          shop about UI, motion, or performance. I read every message that comes
+          in.
         </p>
         <div className="contact-actions">
           <a href="mailto:neekita635@gmail.com" className="btn-primary">

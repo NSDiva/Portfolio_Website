@@ -15,23 +15,23 @@ export default function Experience() {
             </h3>
             <ul className="point-list">
               <li className="point">
-                <span className="acc">→</span>Engineered the hero-to-navbar
-                transition with scroll-linked animation and responsive design
-                principles.
+                <span className="acc">→</span>The hero collapses into the navbar
+                as you scroll. I tied that transition to scroll position and made
+                it hold up across screen sizes.
               </li>
               <li className="point">
-                <span className="acc">→</span>Designed &amp; deployed the
-                agency&apos;s blog / journal architecture — directory structure
-                and cohesive custom styling across screen sizes.
+                <span className="acc">→</span>Set up the agency&apos;s blog and
+                journal from the directory structure up, with custom styling that
+                stays consistent across screen sizes.
               </li>
               <li className="point">
-                <span className="acc">→</span>Built a cursor-responsive 3D phone
-                animation using IntersectionObserver to trigger context-aware
-                tooltips.
+                <span className="acc">→</span>Built a 3D phone that follows the
+                cursor, with IntersectionObserver firing context-aware tooltips as
+                it scrolls into view.
               </li>
               <li className="point">
-                <span className="acc">→</span>Drafted SEO-structured content and
-                monitored site health with Google Search Console.
+                <span className="acc">→</span>Wrote SEO-structured content and kept
+                an eye on site health through Google Search Console.
               </li>
             </ul>
           </div>
@@ -46,13 +46,12 @@ export default function Experience() {
             </h3>
             <ul className="point-list">
               <li className="point">
-                <span className="acc">→</span>Completed the Infosys Springboard
-                Virtual Internship 6.0 certification, focused on Angular.
+                <span className="acc">→</span>Finished the Infosys Springboard
+                Virtual Internship 6.0 certification, all Angular.
               </li>
               <li className="point">
-                <span className="acc">→</span>Built{" "}
-                <span style={{ color: "var(--text)" }}>TaxPal</span> — a personal
-                finance &amp; tax estimator for freelancers.
+                <span className="acc">→</span>Built TaxPal - a finance
+                &amp; tax estimator aimed at freelancers.
               </li>
             </ul>
           </div>

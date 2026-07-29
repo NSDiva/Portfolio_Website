@@ -1,9 +1,9 @@
 const logs = [
   "building responsive UIs",
-  "integrating REST APIs",
-  "crafting scroll animations",
-  "debugging state",
-  "optimizing for SEO",
+  "wiring up REST APIs",
+  "tuning scroll animations",
+  "chasing down state bugs",
+  "fixing SEO",
   "shipping to Vercel",
 ];
 
@@ -23,19 +23,19 @@ function LogTrack() {
 const cards = [
   {
     label: "⚙ WORKING ON",
-    text: "Scroll-linked hero animations and a responsive journal architecture for the JouleWorx site.",
+    text: "Scroll-linked hero animations and the responsive journal architecture on the JouleWorx site.",
   },
   {
     label: "◇ EXPLORING",
-    text: "3D on the web with Three.js, modern UI architecture, and micro-interactions that guide the eye.",
+    text: "3D on the web with Three.js, plus how to structure UI and use micro-interactions to point people where to look.",
   },
   {
     label: "⚡ FUEL",
-    text: "AI-assisted flow with Cursor & Claude — the default for long build sessions and late refactors.",
+    text: "Cursor & Claude do a lot of the heavy lifting on long build sessions and the late-night refactors.",
   },
   {
     label: "♫ NOW PLAYING",
-    text: "Low-vocal, high-focus — the soundtrack for deep-work mode and pixel-pushing.",
+    text: "Low-vocal, high-focus stuff. It's what plays while I'm heads-down pushing pixels.",
   },
 ];
 
@@ -50,16 +50,15 @@ export default function About() {
       </div>
 
       <p data-reveal className="about-lead">
-        I&apos;m a Computer Science graduate and frontend developer who cares
-        about how interfaces feel, not just how they look. I spend most of my
-        time in the React and Next.js ecosystem, translating designs into
-        responsive, accessible, production-ready UIs — with a real focus on clean
-        structure, smooth motion, and performance. During my internship at
-        JouleWorx I shipped scroll-linked animations, built a responsive journal
-        architecture, and worked on SEO and content strategy. Lately I&apos;ve
-        been going deeper into 3D on the web with Three.js and using AI-assisted
-        tools like Cursor and Claude to move faster. I love the details that make
-        a UI feel effortless.
+        I&apos;m a Computer Science grad and frontend developer, and I care about
+        how an interface feels to use, not just how it looks in a screenshot.
+        Most of my work lives in React and Next.js, I take designs and turn them
+        into responsive, accessible UIs that are ready to ship. During my
+        internship at JouleWorx I built scroll-linked animations and the
+        responsive journal architecture, and spent time on SEO and content along
+        the way. Lately I&apos;ve been getting into 3D on the web with Three.js,
+        and I lean on Cursor and Claude to move faster. The small details are
+        usually what I end up obsessing over.
       </p>
 
       <div data-reveal className="about-grid">
