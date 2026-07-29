@@ -247,10 +247,24 @@ a {
 }
 
 .brand {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   font-family: var(--font-mono), monospace;
+  line-height: 1.15;
+}
+
+.brand-name {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.brand-role {
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
 }
 
 .nav-links {

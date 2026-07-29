@@ -3,7 +3,8 @@ export default function Nav() {
     <nav className="nav">
       <div className="nav-inner">
         <a href="#top" className="brand">
-          <span className="acc">~/</span>neekita.sahu
+          <span className="brand-name">Neekita Sahu</span>
+          <span className="brand-role">Frontend Developer · UI Engineer</span>
         </a>
         <div className="nav-links">
           <a href="#about" className="nav-link">ABOUT</a>
