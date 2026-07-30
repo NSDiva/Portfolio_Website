@@ -1,0 +1,7 @@
+# Static export writes the OG/Twitter images as extensionless files
+# (out/opengraph-image, out/twitter-image), so Cloudflare Pages would
+# serve them as application/octet-stream and crawlers would skip them.
+/opengraph-image
+  Content-Type: image/png
+/twitter-image
+  Content-Type: image/png
