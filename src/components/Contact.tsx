@@ -14,8 +14,7 @@ export default function Contact() {
         </h2>
         <p className="contact-sub">
           I&apos;m open to frontend roles and freelance work, and happy to talk
-          shop about UI, motion, or performance. I read every message that comes
-          in.
+          about UI, motion, or performance. I read every message that comes in.
         </p>
         <div className="contact-actions">
           <a href={`mailto:${site.email}`} className="btn-primary">
