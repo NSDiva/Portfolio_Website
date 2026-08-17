@@ -14,7 +14,7 @@ type Project = {
 const projects: Project[] = [
   {
     thumb: "/AI Resume Checker.png",
-    date: "06 · 2026",
+    date: "01 · 2026",
     title: "AI Resume Checker",
     desc: "Upload a resume and a job description, get back a match score, the keywords you hit and missed, ATS formatting flags and rewritten bullets in one pass. Four serverless routes on Next.js 16 talk to the Google Gemini API, and a 7-model fallback chain with retry-on-429/404/503 keeps success near 100% on a rate-limited free tier where one model alone would just fail. Responses come back through Gemini responseSchema definitions mapped 1:1 to typed interfaces, so there is no JSON parsing to break. The PDF pipeline reads an upload with pdf-parse, pulls out 7 sections and re-renders a single-column ATS-safe document - a 30-minute manual reformat done in under 10 seconds.",
     tags: ["Next.js 16", "React 19", "Gemini API", "TypeScript"],
@@ -22,7 +22,7 @@ const projects: Project[] = [
   },
   {
     thumb: "/NextMD.png",
-    date: "04 · 2026",
+    date: "02 · 2026",
     title: "NextMD",
     desc: "A full-stack markdown notes app on the Next.js 15 App Router. Seven Supabase Edge Functions in Deno hold every note operation behind one typed invokeFn helper, so ~2,800 lines of app code share a single data-access path. Autosave debounces at 1.5s, queues concurrent writes and backs off 1s/2s/4s, with a throttled localStorage mirror underneath - nothing is lost on a failed save, a closed tab or a mid-edit note switch. Supabase Auth and Postgres row-level security isolate every tenant on every read and write, and SSR middleware only accepts same-origin relative redirects after login. Export to .md, .html or .zip is lossless and collision-safe, with JSZip dynamically imported to keep ~95 KB off the critical path.",
     tags: ["Next.js 15", "Supabase", "Postgres RLS", "TypeScript"],
@@ -30,7 +30,7 @@ const projects: Project[] = [
   },
   {
     thumb: "/PeerEdit.png",
-    date: "01 · 2026",
+    date: "03 · 2026",
     title: "PeerEdit Workspace",
     desc: "A document editor where everyone types at once and no server holds the data. Yjs and WebRTC sync peers directly at sub-100ms latency and show who else is in the room. The Web Crypto API generates session keys client-side, so 100% of document data stays encrypted in transit. Built on Next.js, React and TipTap with a modular Tailwind v4 component architecture.",
     tags: ["Next.js", "TipTap", "Yjs / WebRTC", "Web Crypto"],
@@ -38,7 +38,7 @@ const projects: Project[] = [
   },
   {
     thumb: "/MovieLand Discovery Hub.png",
-    date: "02 · 2025",
+    date: "04 · 2025",
     title: "MovieLand",
     desc: "Type a title and it searches 10,000+ films through the OMDb API. Tuned state handling cut query response times 25%, and React Hooks refill the glass-morphism grid without a page refresh.",
     tags: ["React", "OMDb API", "React Hooks", "CSS Grid"],
@@ -46,7 +46,7 @@ const projects: Project[] = [
   },
   {
     thumb: "/3D Interactive Weather Globe.png",
-    date: "03 · 2025",
+    date: "05 · 2025",
     title: "Global Temperature",
     desc: "A 3D globe rendered in Three.js with custom earth textures. Search a city and a live weather API pulls temperature, wind and humidity, then the view moves from the spinning globe to a plain readout. Optimized texture loading holds a steady 60 FPS, and async fetching trimmed 20% off load time on that handoff. Holds up from desktop down to mobile.",
     tags: ["Three.js", "Weather API", "WebGL", "Responsive"],
