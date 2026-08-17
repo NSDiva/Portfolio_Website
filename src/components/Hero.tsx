@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="top" className="hero">
       <div data-reveal className="status-badge">
         <span className="status-dot" />
-        OPEN TO FRONTEND ROLES &amp; STILL LOOKING AROUND
+        OPEN TO FULLSTACK ROLES &amp; STILL LOOKING AROUND
       </div>
 
       <div className="hero-grid">
@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
           <div className="term-body">
             <div><span className="acc">$</span> whoami</div>
-            <div className="term-out">Frontend Developer · UI Engineer</div>
+            <div className="term-out">FullStack Developer · Software Engineer</div>
             <div className="term-gap"><span className="acc">$</span> cat stack.txt</div>
             <div className="term-out">React · Next.js · TypeScript · Three.js</div>
             <div className="term-gap"><span className="acc">$</span> status --now</div>

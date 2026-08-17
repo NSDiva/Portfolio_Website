@@ -116,15 +116,20 @@ export default function About() {
       </div>
 
       <p data-reveal className="about-lead">
-        I&apos;m a Computer Science grad and frontend developer, and I care about
-        how an interface feels to use, not just how it looks in a screenshot.
-        Most of my work lives in React and Next.js, I take designs and turn them
-        into responsive, accessible UIs that are ready to ship. During my
-        internship at JouleWorx I built scroll-linked animations and the
-        responsive journal architecture — load times dropped 40% and organic
-        traffic rose 30% — and spent time on SEO and content along the way. Lately I&apos;ve been getting into 3D on the web with Three.js,
-        and I lean on Cursor and Claude to move faster. The small details are
-        usually what I end up obsessing over.
+        I&apos;m a Computer Science grad and a developer who cares about how an
+        interface feels to use, not just how it looks in a screenshot. Most of my
+        work lives in React, Next.js and TypeScript; I take a design and turn it
+        into a responsive, accessible UI that&apos;s ready to ship. Lately that
+        has stretched past the frontend: Supabase Edge Functions and Postgres
+        row-level security behind a multi-tenant markdown notes app, and the
+        Google Gemini API wired into an AI resume checker with a model fallback
+        chain and schema-typed responses, so a bad parse never takes the page
+        down. During my internship at JouleWorx I built scroll-linked animations
+        and the responsive journal architecture; load times dropped 40% and
+        organic traffic rose 30%, and I spent time on SEO and content along the
+        way. I also build in 3D on the web with Three.js, and I lean on Claude
+        and Antigravity Studio to move faster. The small details are usually what
+        I end up obsessing over.
       </p>
 
       {/* Telemetry Dashboard replacing cards */}

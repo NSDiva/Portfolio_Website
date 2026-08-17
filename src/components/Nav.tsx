@@ -63,7 +63,7 @@ export default function Nav() {
       <div className="nav-inner">
         <a href="#top" className="brand" onClick={onNavClick}>
           <span className="brand-name">Neekita Sahu</span>
-          <span className="brand-role">Frontend Developer · UI Engineer</span>
+          <span className="brand-role">Full Stack Developer · Software Engineer</span>
         </a>
         <button
           className="nav-toggle"

@@ -1,9 +1,10 @@
 const groups = [
-  { label: "LANGUAGES", items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "C++", "Python"] },
-  { label: "FRAMEWORKS & LIBS", items: ["React.js", "Next.js", "Tailwind CSS", "Three.js"] },
+  { label: "LANGUAGES", items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "C++", "SQL"] },
+  { label: "FRAMEWORKS & LIBS", items: ["React.js", "Next.js", "Node.js", "Tailwind CSS", "Three.js", "Framer Motion", "Vite"] },
+  { label: "AI & LLM INTEGRATION", items: ["Google Gemini API", "Prompt Engineering", "Structured JSON Schema", "Rate-Limit Retry Logic"] },
   { label: "FRONTEND CORE", items: ["Flexbox", "CSS Grid", "Responsive Design", "Modern UI Architecture"] },
-  { label: "API & TOOLING", items: ["REST API", "JSON", "Git / GitHub", "Vercel"] },
-  { label: "AI CODING", items: ["Cursor", "Claude", "Antigravity Studio"] },
+  { label: "BACKEND & DATABASE", items: ["REST API", "WebSockets", "WebRTC", "Supabase", "Postgres RLS", "CORS", "Multitenancy"] },
+  { label: "TOOLS & PLATFORMS", items: ["Git / GitHub", "Vercel", "Supabase", "Claude", "Antigravity Studio"] },
   { label: "OTHER", items: ["SEO", "Performance", "Problem-Solving", "Analytical Thinking"] },
 ];
 
