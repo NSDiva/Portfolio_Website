@@ -13,7 +13,7 @@ export default function Contact() {
           <span className="acc">Let&apos;s talk.</span>
         </h2>
         <p className="contact-sub">
-          I&apos;m open to frontend roles and freelance work, and happy to talk
+          I&apos;m open to fullstack roles and freelance work, and happy to talk
           about UI, motion, or performance. I read every message that comes in.
         </p>
         <div className="contact-actions">
