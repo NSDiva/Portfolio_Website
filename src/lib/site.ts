@@ -1,10 +1,10 @@
 export const site = {
   url: "https://neekitasahu.dev",
   name: "Neekita Sahu",
-  title: "Neekita Sahu | Frontend Developer",
+  title: "Neekita Sahu | Fullstack Developer",
   description:
-    "Frontend developer & UI engineer building responsive React and Next.js interfaces — scroll-linked motion, SEO that lifted organic traffic 30%, code that ships.",
-  role: "Frontend Developer & UI Engineer",
+    "Fullstack developer & software engineer building responsive React and Next.js interfaces — scroll-linked motion, SEO that lifted organic traffic 30%, code that ships.",
+  role: "Fullstack Developer & Software Engineer",
   email: "neekita635@gmail.com",
   github: "https://github.com/NSDiva",
   linkedin: "https://www.linkedin.com/in/neekita-sahu-3b72a7258/",
@@ -14,9 +14,9 @@ export const site = {
   accent: "#7CE38B",
   keywords: [
     "Neekita Sahu",
-    "Frontend Developer",
-    "UI Engineer",
-    "Frontend Engineer",
+    "Fullstack Developer",
+    "Software Engineer",
+    "Fullstack Engineer",
     "React Developer",
     "Next.js Developer",
     "React",

@@ -86,8 +86,8 @@ const jsonLd = [
       "Next.js",
       "TypeScript",
       "Three.js",
-      "Frontend Development",
-      "UI Engineering",
+      "Fullstack Development",
+      "Software Engineering",
     ],
   },
   {
